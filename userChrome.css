@@ -1,0 +1,121 @@
+/* Left container */
+#navigator-toolbox {
+  margin: 0 12px;
+}
+
+#zen-sidebar-top-buttons {
+  margin: 12px 0 8px;
+}
+
+#zen-current-workspace-indicator-container {
+  margin-top: 32px;
+}
+
+.zen-current-workspace-indicator {
+  &::before {
+    background: rgba(255, 255, 255, 0.1) !important;
+  }
+}
+
+.zen-current-workspace-indicator:hover {
+  &::before {
+    background: rgba(255, 255, 255, 0.2) !important;
+  }
+}
+
+.zen-current-workspace-indicator-icon {
+  z-index: 0 !important;
+}
+
+.zen-current-workspace-indicator-name {
+  z-index: 0 !important;
+}
+
+#zen-browser-tabs-container {
+  margin-top: 4px;
+}
+
+vbox.zen-workspace-normal-tabs-section:nth-child(2) {
+  display: block;
+  padding-top: 8px !important;
+}
+
+#zen-browser-tabs-container {
+  max-height: 92%;
+}
+
+#zen-sidebar-bottom-buttons {
+  display: none !important;
+}
+
+/* Media bar */
+#zen-media-controls-toolbar {
+  bottom: 12px;
+  margin: 4px;
+
+  toolbaritem {
+    background-color: #181b1f !important;
+  }
+}
+
+/* Right container */
+#zen-appcontent-wrapper {
+  margin: 12px;
+  margin-left: 0;
+  padding: 12px 18px 18px;
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.25), 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Nav bar */
+#zen-appcontent-navbar-container {
+  margin: 0 16px 12px !important;
+}
+
+#nav-bar {
+  margin: 0 !important;
+}
+
+/* URL bar */
+#urlbar-background {
+  margin: 0 !important;
+  border-radius: 24px !important;
+}
+
+/* Container label */
+#userContext-label {
+  display: none;
+}
+
+/* Window buttons */
+.titlebar-buttonbox-container {
+  margin-left: 56px !important;
+}
+
+.titlebar-button {
+  border-radius: 8px;
+}
+
+/* Web content container */
+#zen-tabbox-wrapper {
+  margin: 0 !important;
+}
+
+#tabbrowser-tabbox {
+  border-radius: 12px;
+}
+
+#tabbrowser-tabpanels {
+  background: rgba(255, 255, 255, 1) !important;
+  border-radius: 12px;
+}
+
+/* Sidebar */
+#sidebar-box {
+  background: rgba(0, 0, 0, 0) !important;
+  box-shadow: none !important;
+  margin-right: 4px;
+}
